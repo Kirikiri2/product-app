@@ -6,7 +6,6 @@ export default function MainLayout() {
     
     const [cart, setCart] = useState([])
     const [love, setLove] = useState([])
-
     return (
         <CartContext value={[cart, setCart]}>
             <LoveContext value={[love, setLove]}>
